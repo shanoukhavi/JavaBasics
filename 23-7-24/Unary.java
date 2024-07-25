@@ -28,6 +28,7 @@ System.out.println(++p);
 System.out.println(p++);
 
 //everything is done mate other thi6ng is not psoiisnle so been careful to dou t otherwsie it is not possible amtre to do it 
+
 //ehere thee ans is 5 mate otherwise u wont ve tit mate 
 }    //yes it is ppsiible mate 
 

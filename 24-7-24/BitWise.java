@@ -32,6 +32,7 @@ public static void main(String[] args) {
       int res6=first>>1;
       System.out.println(res6);
       //the two s sdivision is also posisibl mat by 2 
+      
       //num/2 power k mate 
 
 }     
