@@ -23,5 +23,28 @@ public class ArrayUtility {
             i++;
         }
     }
+    public static int[][] input2DArray(){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("please enete rthe number of rows and colummns mate");
+        int rows=sc.nextInt();
+        int cols=sc.nextInt();
+        int[][] newArray=new int[rows][cols];
+        //size is i declared as sizea ss rosw and cols
+        int i=0;
+       
+        while(i<rows){
+            //or the arr.length 
+int j=0;
+while(j<cols){
+    //the arr[i].length can be input beothe ae th e one and the same 
+System.out.println("please eneter the ellement u want to enter row "+(i+1)+"column"+(j+1+":"));
+newArray[i][j]=sc.nextInt();
+j++;
+
+}
+i++;
+        }
+        return newArray;
+    }
 }
 //this si helps to return the arrray u eee dot ogive it 
