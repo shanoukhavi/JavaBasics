@@ -15,15 +15,23 @@ return true;
    
 
 public static boolean isSortedDecrease(int [] arr){
-    int i=arr.length-2;
-    while(i>=0){
-if(arr[i]<arr[i+1]){
+    int i=1;
+    while(i<arr.length){
+if(arr[i]>arr[i-1]){
     return false;
 }
-
-        i--;
+i++;
     }
     return true;
+//     int i=arr.length-2;
+//     while(i>=0){
+// if(arr[i]<arr[i+1]){
+//     return false;
+// }
+
+//         i--;
+//     }
+//     return true;
 }
     public static void main(String[] args) {
         int[] myarr=ArrayUtility.inputArray();

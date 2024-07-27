@@ -14,5 +14,14 @@ public class ArrayUtility {
         }
         return nums;
     }
+    public static void displayArray(int[] numArray)
+    {
+        int i=0;
+        while(i<numArray.length)
+        {
+            System.out.println("the ellements are"+numArray[i]);
+            i++;
+        }
+    }
 }
 //this si helps to return the arrray u eee dot ogive it 
