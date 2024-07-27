@@ -2,16 +2,31 @@ public class Car {
     //car can heva how many tyres mate eevrything properties 
     int noOfWheels;
     String color;
-    float maxSpped;
+    float maxSpeed;
     float currentFuelInLiters;
     int noOfSeats;
+    Car(){
+        //it should be same ss that of the class of car naame s mate so been done
+        noOfWheels=4;
+      //default alues hai bhaiji
+      color="black";
+      maxSpeed=150;
+      currentFuelInLiters=2;
+      noOfSeats=5;
+      //default alues hai bhaiji  
+    }
     //these are my instance variables 
     //i wanted to change ot the majke in the change in the car class ionly vhcnage in car class dont go and 
-    public Car  start()
+    //bank Acoutn ma ane eki class u do it saving s interes rint interset 
+    //interess tis there hwil eo bject if u want ot to uinteret is thre u 
+    //for everyone be thes mae for all the instances it shoudl ebe the same mate so eben carefulw hile doing ut  its a single copy  class ka behaviour not the ins
+    public Car  start()//no acces ot non static method saor the memebers they cant be use d mate 
     //vodi was there mate return the Car it imate 
-    //same uf u give vofi ws there so instead of that u can use it 
+    //same uf u give vofi ws theretheey beleong to shared among the instances among the objects but keeping it i same mmate  so instead of that u can use it 
     //thie sis the way which is  given by void 
+    //and the static method doesnt meeed the keyword to be called it can be called idirectly instead ofg dojgn t i u dornt call it i i is s ie ntjjhe same way bu clas sand inout array u iid itn mafte kuch rooicdedeurres cN BE SME WE DUMPED IT HAS A atatic keyword mate 
     {
+        //verytig is  defined instance can eacces s the static mate int the red in th estatic he can he use  from thw dclass he cant acces from c1 c2 where it is i si ryt these c1 c2 can access which is there cclass car amte  no acces sot non static memebers mate 
         //inside the strt itme only u hekc it 
         if(currentFuelInLiters==0){ 
             System.out.println("Car is  sbeen out of the fuel mate so been caredul tot do it it cannot be dstarted   ");

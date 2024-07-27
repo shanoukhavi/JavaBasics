@@ -1,6 +1,19 @@
 public class Driver {
+    static int minAgeForDriving=18;
+    //only for th clas onlt ynot the stauff it i s mate 
     //nwo car is created then tha ti si class  with the drive ris ther e who is new car he uses 
+    String name;
+   String dateOfLicense;
+   int age;
+   public boolean isAloowded()
+   {
+    return  this.age>=minAgeForDriving;
+    //static coluld be accesed inside static and  slo nonn static method inseide u capture di t
+    // return  this.age>=minAgeForDriving;
+    //he u i is using it as thsi is somtehting mate ag e
+   }
     public static void main(String[] args) {
+        //main metod is sttic jvm object hsould nt create object driver.main he will calls 
         //we foing to create the Object  Constructor mate put i tinto myCar only object is idone myCar object is  ebebn getitng constructor i sbeen taken             
     //     Car myCar=new Car();
     //     //before edrriving add fuel he doess 
@@ -39,8 +52,34 @@ public class Driver {
 
 //now i i fo gofor the swift car 
 Car swift=new Car();
-swift.addFuel(6);
+System.out.println(swift.color);
+//thhsisis the black at 
+//whic icj is sthe  car i ti is i amte so been looking ofo ri tso long time it isis a constructor it issi a class sabssed thing mate 
+//swift.addFuel(6); //yes su u can drive mat e
 swift.start().drive();
+System.out.println(swift.color);
+//we will ge tthe alue as the blac mate otheriwse it is is not bene possisnle to do it
+// System.out.println(swift.getCurrentFuel());
+//yes now ittll be caled as  1 mate noth the smaehting 
+//car is is on the reserve mode bhaiji them u can drive is nte nchoice of urs 
+
+//java by default u will be  added karenge to ho custom behaviour aoterwise before send ing to jvm comiler constructor mate  cosntructor initizalizes new object it initail States for the object atrtributes mate it doesnt have any return type mate  constructor is returnin the object itself not the main process mate 
+//it  is is return typ is not defined or the object only will  be defined name is the  class ka namam hai same car hai bhaiji 
+//parnathesis lagakr kar sakte hain bhaiji when thenew constructor is clalled mate yes mehtod u can calll bhaiji new Car constructor only iu will call hbbaiji state u eant to declare bydefault if he does it 
+// Driver mydriver=new Driver();
+// // mydriver.minAgeForDriving //
+// // mydriver.dateOfLicense="122";
+// System.out.println(minAgeForDriving);
+// //System.out.println(mydriver.minAgeForDriving); not o a ggod appraoch mate 
+// //eevrything is posisible mate her e it is is like u cn acces sbyt the class itself or direct can be called by the object not recommednded 
+
+// System.out.println(Driver.minAgeForDriving);
+//like thsi sialos posisle otherise by the  cass name ka dot laga ke mailnwame 
+//he can acces si t mate but titht the other ppl he cananot go as the objects 
+//thsi sii s alos not psossible amte 
+//Driver.
+// mydriver.he can acces si ti ame 
+ 
 // swift.start().drive();
 //swift.drive().start(); ths i si snot been possible mate 
 //yes  u can call statrt twith that only ur driing mate withoyt fivein name it returns the sae class object so u can rrute any ways 
@@ -64,3 +103,5 @@ swift.start().drive();
 //Class name Stuedent class Naaem strudent1refarance nam=new Strudent()  new which is tghe keyword and the student is the keyword amte ek refernece badh maein banta hai pa is the done clas sis there mate he is a pa he is i actual object reference clas new which is ithe keyword And another is the Constructor hai bhaaisaab and the two other brackets are needed to been done 
 //int a  is declaeration initiaializetion decleration is the initializtion ha i bahiji reference has been declared we have instance have been done here to make actual copy of the class we do it  by the maeans of the object u go and  map isi the lueprint mate clas sis the blueprint u cant directly use it powe can aces it by te other means of the way otherise u an tyru to cvves sit mate instad of dojg ut 
 
+//stati iic i si like u can acces shte varibale of the same calss hre static int a then u can acces swhil ecresting thr oebject so.jjjj i ntit ososbile but that a nto tru in the nons tatic also it snot possible 
+//in the main method which i  smain it is is not possiisble mate directly u can do access by classname and onject nmat e
