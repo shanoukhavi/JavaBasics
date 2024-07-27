@@ -8,11 +8,14 @@ public static int fib(int n){
     int a=0,b=1;
     // int a=0;
     // int b=1;
-    while(i!=n){
+    System.out.println("the series i"+0);
+    System.out.println("the serises is like"+1);
+    while(a+b<=n){//yes the last and first will tke u utto theST RANDO SHIT MATE 
         fibs=a+b;
+        System.out.println("the series i"+fibs);
         a=b;
         b=fibs;
-        i++;
+      
     }
     return fibs;
 
