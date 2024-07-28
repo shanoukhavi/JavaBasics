@@ -51,11 +51,26 @@ public class Driver {
 //the code i s going to run in the jvm everythin is allocated dynamic memeory allocated 
 
 //now i i fo gofor the swift car 
-Car swift=new Car();
-System.out.println(swift.color);
+Car swift=new Car("Red"); //otherise u can give the cooor here mate 
+Car thar=new Car();
+System.out.println(thar.color);
+//as soon u called is tt 
+System.out.println(thar.currentFuelInLiters); 
+//static will run mate then inititialization blocak will be called 
+//therre should bnt bee lolop her etherwise itll be failed mate ji 4b careful jii to o od it  ji
+//yes now ewill be 2 as su not passed nythig so defualt is is called mate which specifies i ti ia s  blacky then got ses and changes currrnnet fuel mate 
+//without the color mate dont do it antyhting 
+//he has a n option that can be fred or the black mate or rboth  
+//bhena hi nahi only liitlele values  ar e igivne as the default valeus bjaiji ii jwiolef   og  o for th e ans o os oas thiis is the way u try to code before it is bbeen ued 
+//color is is i given this sij si i the object s o u  nneed ot giv ei ti ia s  a r ed or nlack as beebm given otherwie atejayega bai abtu 
+//contructor can be initiialized he ccan pas si t mate 
+//compuslsor give the color as it iis sigioevn as paramteter hai bhaiji
+// System.out.println(swift.color);
+// System.out.println(swift.color);
 //thhsisis the black at 
 //whic icj is sthe  car i ti is i amte so been looking ofo ri tso long time it isis a constructor it issi a class sabssed thing mate 
 //swift.addFuel(6); //yes su u can drive mat e
+//paramemter or the default constructor hai bhaijii so o benen doin f gi 5i t foro so lllng perios d of the time ahijbhaaiji
 swift.start().drive();
 System.out.println(swift.color);
 //we will ge tthe alue as the blac mate otheriwse it is is not bene possisnle to do it
@@ -105,3 +120,4 @@ System.out.println(swift.color);
 
 //stati iic i si like u can acces shte varibale of the same calss hre static int a then u can acces swhil ecresting thr oebject so.jjjj i ntit ososbile but that a nto tru in the nons tatic also it snot possible 
 //in the main method which i  smain it is is not possiisble mate directly u can do access by classname and onject nmat e
+//weherever u take the place as of now uitisisi like tnot the same concept as it isis first is is the static block then the init i block wil take intot existence 
