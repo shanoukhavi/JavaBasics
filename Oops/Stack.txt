@@ -1,0 +1,27 @@
+the meemmepry is is diivide di intot the stacka nd the heap mate which is is be doing it i icarefully which are both the stack abdn heap memeory mate 
+stack is is ordered on tthe top of the stacl ehapis idonward not toa sof the stakc 
+uppar ki plate operations everyhting is spoosisible in tht stavk mate 
+heap measn dher hai bhaiji anything can be happenigng tack is plates or kept heap is is there pins are kept on the side which is heap mate heap is  all totgether msame 
+stack and heap memeory mate 
+//methdos will be gone to stack meemory mate  and the heap is there it tll been goting inside the heap memeory bhaii 
+//object is is created and going inside the heap memeory mate integere fload t method everyhting is goign inseid e the stack methdo 
+//main i oging down then dostuff to go everything is s been accessible here then go u remove then dstudff is gon then it iti  s main method mate so been doing it 
+//thene eit i si si stack memeory thing whih i ssbene accesssbile to do dit as before we do it mate  eevrything will go with go only mae whivh is is i nstakc mate  cut piece intot the stack itit is not the original one mate 
+static is is the stack mate heap is shte object or o dynamic size sheap u do is it it i tru or efore noto ethe true methodf 
+//the problem sta stores metho calls tack method after nformationa nd the local variables  ssaved  objject ke enadhare jaeyga heap  me in 
+stringisis i the object new method is  ot kept mate s tirng i si soriginally object mate jaba is gone inseid new new is snot psoible they are boject new is not needed mate 
+//heap mein bhi jaga hoti hai jjava d objejt  d os in th stack and inseide the demo is ther stack is pointed tot oheap always mate otheriwsei it snot tbeen there to refrernece to been thre reference 
+primtitive mehtod and non priitive noth r rbeen differnet procedures to do it been careful about tuitt i dby doing it iotherwsie ittll not assure tot od oit 
+non primititbe iti s si nt h class array interface object everything is kept 
+numeric integre floating point nonm numeric characters and booleand primitive is elept inside the stack heap ke eandhar kept iside reference is kept as integrer iti si is kept at as primititve methof 
+now see Demo dd=new Demo here d is there rryt which will be keept as a reference in thae astack demo ill be kept is n the heap mate customere is is reference which will refer eot tocustomer in the heap mate  
+primititve ke ke jo default value hai to zero or the one mate prprimtiive are easily to acces them the object isis igoing for the customer there it is is i ptherwise i iti is i snot pososoibel eong not odoigm ti so obebd oing i5 fo very ling period of the time mate 
+priitive sare sotred int hes tack others in the heap mate othersise == thenother .equals mate objects will comepre it string .equals equals is other type mate 
+see mate whicih si sigvenbby paramrmter and it is i si i appalicale by block only matotheriwse u cant acces iit i i ii now int speed=100 nd mthods inseide u have foen is the local variables mate otherwise u dont get the connection here mate been doingit 
+gloabal scopr which i scan been asccesable loca scope is been accessible by the other mates which suis is beben asccessedd by th eperople mate 
+andhar brackests u can accessed in that bracket u can se it mate  local scope ris s the ans wer other than thisis is is not visisible jamte so been oing it for vert lone g period of fftime rroot is is itone here eeevrything isis idone mate u can access usisng anythi gna mte so ben doing it i
+then java ais is  the created object is is ibeen killed duck objecti si siebeen illeed i tbyiitiself java is i is inotnneded tot o  okill it i iusing garbage collection and finalize iit i java avirtual amchine runing giib the backfgorund 
+heappi su there wich are not tbeen there kipoi bhi heap is cillecting it memeory can be eemotyed thene it is is ibeben accessiisble by the method whic has been removed hsas to been collected our dear mate otherwise it i si svery dififcult to kope uom mate 
+sem eii fi refernece is is only kahatam then object wont have any pointitng to oit so garababeg collector iwll rememove i timate 
+//java deevelopers cannot texpllxlty go and take the value of it iotherwise wast eit it i smate to delete it no riefernceis i there allaag ahahaal la lg hi karthhe hain bhaiji so bene doing it very solloow heap has a praticular sizem ame eandhar extra hai ji bahahr chale jay e 
+jalddi hai bhaiji algorithms are ther run time heap me nahi then itll remekove eevrythting is is done parrallel y 

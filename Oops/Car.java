@@ -132,6 +132,14 @@ static{
     //it is is like no oof of object is is icalled that ime it iwill be invoekd mate like tgar 1 benz two then carido 3 ass asson 
     //default constructor is called cod eblock is i caleld before the set mate 
 }
+
+    @Override
+    protected void finalize() throws Throwable {
+        // super.finalize();
+        System.out.println("i ma a inn finalize methof mate ");
+        //thsisisi s ith finalize mate now latter u will ge tto ot t know oit mate its dsicorurage hai bhaiji 
+    }
+
 }
 //itis si sia i sitiaitioci blocok initititiialization bnlok class ke object call e p hot a hai bhai otherwise it idoesnt happend mate ji
 //here we anw a t od o  one one things mate which is like static kekeyword and the eghtus isi js i sithis is  is  sseee eher thi si is this i here estatic u jcan apply should nt change static {sout onecr tiit iwill be executed and the code block wont be exceuted everytinm whnn u careate the obect itll be created and speciall s ithat for tuhe othe rccase which sis iuse ur vodi fnn  ioour start thsiis si u return u can returh nurself mate } Calal(String name thisis.name [nme and other cAR()]){}

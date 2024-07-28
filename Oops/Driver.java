@@ -52,11 +52,16 @@ public class Driver {
 
 //now i i fo gofor the swift car 
 Car swift=new Car("Red"); //otherise u can give the cooor here mate 
+// swift=null;
+//swif ti is  sused so sexception error u might get mate 
+//ues o  sne object  i do ont enendd it herr r so been null
 Car thar=new Car();
-System.out.println(thar.color);
-//as soon u called is tt 
-System.out.println(thar.currentFuelInLiters); 
-//static will run mate then inititialization blocak will be called 
+thar=null;
+//current verisn has deprecisted mate which is is fiinalize ek moka clean up resource s is si nto resource memtod durrun nahi kia jayega bhaiji 
+// System.out.println(thar.color);
+// //as soon u called is tt 
+// System.out.println(thar.currentFuelInLiters); 
+// //static will run mate then inititialization blocak will be called 
 //therre should bnt bee lolop her etherwise itll be failed mate ji 4b careful jii to o od it  ji
 //yes now ewill be 2 as su not passed nythig so defualt is is called mate which specifies i ti ia s  blacky then got ses and changes currrnnet fuel mate 
 //without the color mate dont do it antyhting 
@@ -121,3 +126,5 @@ System.out.println(swift.color);
 //stati iic i si like u can acces shte varibale of the same calss hre static int a then u can acces swhil ecresting thr oebject so.jjjj i ntit ososbile but that a nto tru in the nons tatic also it snot possible 
 //in the main method which i  smain it is is not possiisble mate directly u can do access by classname and onject nmat e
 //weherever u take the place as of now uitisisi like tnot the same concept as it isis first is is the static block then the init i block wil take intot existence 
+//variable sos cope r i si there mate sab ki bar u can acess ut it jijne jntbejbji s akme wwya as ucna asscces it it it n tge sma way 
+//there ea ebeben towo methods which i is si sitatic and nonstatic static instance object is is rewuqiredd 
